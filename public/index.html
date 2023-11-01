@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MonkeyChat</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Flavors&family=Josefin+Sans:wght@500&family=Luckiest+Guy&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header id="header">
+      <img src="monkeychat.png" alt="An image of 3 Monkeys making the word MonkeyChat">
+      <h1>Welcome to MonkeyChat. Chat with fellow Monkey lovers!</h1>
+    </header>
+    <ul id="messages"></ul>
+    <form id="form" action="">
+      <input id="input" autocomplete="off" /><button>Send</button>
+    </form>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="script.js"></script>
+  </body>
